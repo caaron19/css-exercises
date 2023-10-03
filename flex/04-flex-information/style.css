@@ -28,25 +28,19 @@ img {
 /* SOLUTION */
 
 body {
-display: flex;
-flex-direction: column;
+  text-align: center;
 }
 
 .title {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .content {
   display: flex;
   justify-content: center;
+  gap: 52px;
 }
 
 .first-plant, .second-plant, .third-plant, .fourth-plant {
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 200px;
-  gap: 52px;
+  max-width: 200px;
 }
