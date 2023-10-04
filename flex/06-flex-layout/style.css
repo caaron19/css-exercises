@@ -63,4 +63,9 @@ a {
 {
   display: flex;
   gap: 18px;
+  padding: 16px;
+}
+
+button {
+  padding: 8px;
 }
