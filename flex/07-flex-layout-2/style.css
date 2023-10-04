@@ -37,7 +37,7 @@ body {
 .header {
   font-size: 32px;
   font-weight: 900;
-  padding: 16px;
+  padding: 0 16px;
   display: flex;
   align-items: center;
 }
@@ -49,11 +49,8 @@ body {
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .content {
@@ -63,19 +60,20 @@ body {
 
 .cards {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   flex-wrap: wrap;
   padding: 32px;
 }
 
 .card {
   width: 300px;
-  padding: 32px;
+  padding: 16px;
+  margin: 16px;
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
